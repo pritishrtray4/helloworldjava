@@ -9,6 +9,7 @@ pipeline {
       steps {
         sh 'pip --version'
         sh 'python --version'
+        sh 'python2.7 --version'
       }
     }
   }
